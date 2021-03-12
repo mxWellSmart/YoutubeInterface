@@ -28,9 +28,12 @@ body {
 
 .yt-header {
     width: 100%;
+    padding: 0 1.6rem;
     height:5.6rem;
     position: fixed;
-    background-color: turquoise;
+
+    color: white;
+    background-color: #202020;
 }
 
 .content {
@@ -39,17 +42,86 @@ body {
     height: 100vh;
 
 }
-
+//////////////////
+//// SIDEBAR
 .sidebar {
-    background-color: lightcoral;
+    background-color: #212121;
     width: 17vw;
     height: 100%;
-    overflow:hidden;
+    padding-right: 1.3rem;
+    overflow-y: scroll;
+    color: white;
 }
 
+.sidenav-intro{
+    width: 100%;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(255,255, 255, 0.25);
+    padding-right: 1.3rem;
+
+    &__header {
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+
+    }
+    &__item {
+        text-align: center;
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__link {
+        text-decoration:none;
+        color: white;
+
+    }
+}
+.yt-copyright {
+    margin-top: 1.8rem;
+    margin-left: 2rem;
+    &__section {
+
+    }
+
+    &__item {
+        list-style:none;
+    }
+    &__link {
+        text-decoration: none;
+        color: rgba(255,255, 255, 0.25);
+        font-size: 1.3rem;
+
+    }
+}
+.space-bottom {
+    margin-bottom: 2rem;
+}
+.pad-bottom {
+    padding-bottom: 2rem;
+}
+
+// ::-webkit-scrollbar {
+//     width: 1rem;
+// }
+// ::-webkit-scrollbar-track {
+//     background-color: #212121;
+// }
+// ::-webkit-slider-thumb {
+//     background: red;
+
+//     &:hover {
+//         background:red;
+//     }
+// }
+//////////////////
+////  MAIN CONTENT
 .yt-view {
-    background-color: lightgreen;
+    background-color: #181818;
     width: 83vw;
     height: 100%;
     overflow:hidden;
+    color: white;
 }
+
+
